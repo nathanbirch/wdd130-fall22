@@ -1,0 +1,11 @@
+.awesomeHeading {
+  color: rgb(138, 214, 249);
+  background-color: rgb(236, 255, 159);
+  text-align: center;
+  margin: 0 10%;
+  font-family: Georgia;
+  padding: 10px;
+  display: block;
+  border: 3px solid black;
+  border-radius: 1px;
+}
