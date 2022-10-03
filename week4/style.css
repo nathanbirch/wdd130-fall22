@@ -1,0 +1,9 @@
+.awesomeText {
+  margin: 0;
+  padding: 0;
+}
+
+.awesomeText:hover {
+  background-color: red;
+  font-size: 1000px;
+}
