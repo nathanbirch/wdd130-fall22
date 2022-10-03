@@ -1,0 +1,19 @@
+body {
+  background-color: aquamarine;
+}
+
+.center {
+  text-align: center;
+  background-color: grey;
+}
+
+.change:hover {
+  background-color: black;
+  color: white;
+  font-size: 300%;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+}
