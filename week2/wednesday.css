@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  color: red;
+}
+
+.fancyHeader {
+  background-color: #2ab8ec;
+  font-size: 150px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 200px;
+}
+
+#lameHeader {
+  font-size: 5px;
+}
+
+p {
+  background-color: orchid;
+  padding: 20px;
+}
+
+.sweetDiv {
+  background-color: yellowgreen;
+  padding: 20px;
+}
+
+button {
+  margin-top: 10px;
+}

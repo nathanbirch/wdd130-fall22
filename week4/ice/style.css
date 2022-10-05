@@ -1,0 +1,45 @@
+body {
+  background-color: #fba7c9;
+}
+div {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.white {
+  color: white;
+}
+.times {
+  font-family: 'times new roman';
+}
+.treb,
+ul > li {
+  font-family: 'Trebuchet MS';
+}
+h1 {
+  font-weight: bold;
+}
+
+ul {
+  text-align: left;
+}
+
+img {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.subText {
+  font-size: 10px;
+}
+
+.quote:before {
+  content: '“';
+}
+.quote:after {
+  content: '”';
+}
+
+.blackHover:hover {
+  color: black;
+}
