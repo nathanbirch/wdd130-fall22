@@ -1,0 +1,88 @@
+body,
+html {
+  padding: 0;
+  /* 
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  */
+  margin: 0;
+}
+
+.mainContent {
+  width: 50%;
+  margin: 0 auto;
+  /* 
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+  */
+}
+
+.regularSizedImage {
+  width: 100%;
+}
+
+.exercise {
+  width: 100%;
+}
+
+.red {
+  background: red;
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.blue {
+  background: blue;
+  padding: 15px;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.green {
+  background: green;
+  padding: 15px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.bigBreak {
+  height: 200px;
+  display: block;
+}
+
+.containerDiv {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.purpleBox {
+  background-color: purple;
+  width: 50px;
+  height: 50px;
+}
+
+.leftSide,
+.rightSide {
+  width: 50%;
+  float: left;
+}
+
+.rightSide > .purpleBox {
+  float: right;
+}
+@media only screen and (max-width: 800px) {
+  .mainContent {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .mainContent {
+    width: 90%;
+  }
+}
