@@ -1,11 +1,11 @@
-article {
+.gridContainer {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: auto auto auto auto auto auto;
   grid-auto-rows: 100px;
   grid-gap: 5px;
 }
 
-section:nth-child(1) {
+.firstGridItem {
   grid-column: 1 / 4;
   grid-row: 1;
   z-index: 1;
@@ -40,7 +40,7 @@ section:nth-child(3) {
 } */
 
 /* non-essential demo styles */
-section:nth-child(1) {
+.firstGridItem {
   background-color: lightgreen;
 }
 section:nth-child(2) {
@@ -49,6 +49,7 @@ section:nth-child(2) {
 section:nth-child(3) {
   background-color: aqua;
 }
+.firstGridItem,
 section {
   display: flex;
   justify-content: center;
